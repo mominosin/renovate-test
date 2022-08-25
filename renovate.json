@@ -3,10 +3,8 @@
   "extends": [
     "config:base"
   ],
-  "postUpdateOptions": [
-    "gomodTidy"
-  ],
   "vulnerabilityAlerts": {
+    "groupName": "security",
     "enabled": true,
     "commitMessageSuffix": "[SECURITY]",
     "labels": [
