@@ -8,7 +8,7 @@
   ],
   "packageRules": [
     {
-      "enabled": false,
+      "enabled": true,
       "groupName": "everything",
       "matchPackagePatterns": [
         "*"
