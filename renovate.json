@@ -6,16 +6,6 @@
   "postUpdateOptions": [
     "gomodTidy"
   ],
-  "packageRules": [
-    {
-      "enabled": false,
-      "groupName": "everything",
-      "matchPackagePatterns": [
-        "*"
-      ],
-      "separateMajorMinor": false
-    }
-  ],
   "vulnerabilityAlerts": {
     "enabled": true,
     "commitMessageSuffix": "[SECURITY]",
