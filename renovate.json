@@ -6,7 +6,7 @@
   "packageRules": [
     {
       "enabled": true,
-      "groupName": "everything",
+      "groupName": "others",
       "matchPackagePatterns": [
         "*"
       ],
