@@ -3,6 +3,16 @@
   "extends": [
     "config:base"
   ],
+  "packageRules": [
+    {
+      "enabled": true,
+      "groupName": "everything",
+      "matchPackagePatterns": [
+        "*"
+      ],
+      "separateMajorMinor": false
+    }
+  ],
   "vulnerabilityAlerts": {
     "groupName": "security",
     "enabled": true,
