@@ -19,6 +19,7 @@
     "commitMessageSuffix": "[SECURITY]",
     "labels": [
       "security"
+      "security_2"
     ]
   }
 }
