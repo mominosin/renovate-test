@@ -13,6 +13,10 @@
       "separateMajorMinor": false
     }
   ],
+  "postUpdateOptions": ["gomodTidy"],
+  "gomod": {
+      "enabled": true
+  },
   "vulnerabilityAlerts": {
     "groupName": "security",
     "enabled": true,
