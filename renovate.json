@@ -13,7 +13,7 @@
       "separateMajorMinor": false
     }
   ],
-  "postUpdateOptions": ["gomodTidy"],
+  "postUpdateOptions": ["gomodTidy","gomodUpdateImportPaths"],
   "gomod": {
       "enabled": true
   },
@@ -22,8 +22,7 @@
     "enabled": true,
     "commitMessageSuffix": "[SECURITY]",
     "labels": [
-      "security",
-      "security_2"
+      "security"
     ]
   }
 }
