@@ -1,10 +1,10 @@
 module github.com/mominosin/renovate-test
 
-go 1.18
+go 1.19
 
 require (
-	github.com/tidwall/gjson v1.9.2
-	golang.org/x/net v0.0.0-20221019024206-cb67ada4b0ad
+	github.com/tidwall/gjson v1.14.3
+	golang.org/x/net v0.1.0
 )
 
 require (
