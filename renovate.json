@@ -13,7 +13,7 @@
       "separateMajorMinor": false
     }
   ],
-  "postUpdateOptions": ["gomodTidy","gomodUpdateImportPaths"],
+  "postUpdateOptions": ["gomodTidy","gomodUpdateImportPaths","gomodMassage"],
   "gomod": {
       "enabled": true
   },
